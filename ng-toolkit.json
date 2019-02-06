@@ -1,0 +1,18 @@
+{
+  "universal": {
+    "project": "bschung",
+    "skipInstall": false,
+    "directory": ".",
+    "http": true
+  },
+  "serverless": {
+    "provider": "aws",
+    "project": "bschung",
+    "skipInstall": false,
+    "directory": ".",
+    "serverless": {
+      "aws": {},
+      "gcloud": {}
+    }
+  }
+}
